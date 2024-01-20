@@ -34,16 +34,16 @@ h1 {
 }
 
 
-.e { background-image: url('21MD-codelex-kit/images/crash1.png'); }
-.i { background-image: url('21MD-codelex-kit/images/crash2.png'); }
-.s { background-image: url('21MD-codelex-kit/images/tom1.png'); }
-.d { background-image: url('21MD-codelex-kit/images/tom4.png'); }
-.f { background-image: url('21MD-codelex-kit/images/snare.png'); }
-.k { background-image: url('21MD-codelex-kit/images/tom3.png'); }
-.l { background-image: url('21MD-codelex-kit/images/tom2.png'); }
-.c { background-image: url('21MD-codelex-kit/images/kick1.png'); }
-.m { background-image: url('21MD-codelex-kit/images/kick2.png'); }
-.v { background-image: url('21MD-codelex-kit/images/ticket.png');
+.e { background-image: url('/21MD-codelex-kit/images/crash1.png'); }
+.i { background-image: url('/21MD-codelex-kit/images/crash2.png'); }
+.s { background-image: url('/21MD-codelex-kit/images/tom1.png'); }
+.d { background-image: url('/21MD-codelex-kit/images/tom4.png'); }
+.f { background-image: url('/21MD-codelex-kit/images/snare.png'); }
+.k { background-image: url('/21MD-codelex-kit/images/tom3.png'); }
+.l { background-image: url('/21MD-codelex-kit/images/tom2.png'); }
+.c { background-image: url('/21MD-codelex-kit/images/kick1.png'); }
+.m { background-image: url('/21MD-codelex-kit/images/kick2.png'); }
+.v { background-image: url('/21MD-codelex-kit/images/ticket.png');
 	margin: 5rem auto;
 }
 
