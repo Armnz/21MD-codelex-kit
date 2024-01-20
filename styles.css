@@ -1,0 +1,62 @@
+body {
+	text-align: center;
+	background-color: #181823;
+	font-family: 'Poppins', sans-serif; /* Set the font here for inheritance */
+}
+
+h1 {
+	font-size: 5rem;
+	color: #dbedf3;
+	text-shadow: 3px 0 #537;
+}
+
+.title-img {
+	width: 80px;
+	opacity: 90%;
+}
+
+/* Combine repeated styles for drum buttons */
+.drum {
+	outline: none;
+	border: 10px solid #404b69;
+	font-size: 2rem;
+	line-height: 2;
+	font-weight: 900;
+	color: #537fe7;
+	text-shadow: 3px 0 #dbedf3;
+	border-radius: 15px;
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	text-align: center;
+	margin: 10px;
+	background-size: contain;
+	background-color: white;
+}
+
+/* Background images for each button */
+.e { background-image: url('../images/crash1.png'); }
+.i { background-image: url('../images/crash2.png'); }
+.s { background-image: url('../images/tom1.png'); }
+.d { background-image: url('../images/tom4.png'); }
+.f { background-image: url('../images/snare.png'); }
+.k { background-image: url('../images/tom3.png'); }
+.l { background-image: url('../images/tom2.png'); }
+.c { background-image: url('../images/kick1.png'); }
+.m { background-image: url('../images/kick2.png'); }
+.v { background-image: url('../images/ticket.png');
+	margin: 5rem auto;
+}
+
+.set {
+	margin: 1rem auto;
+}
+
+.pressed {
+	box-shadow: 0 3px 4px 0 #dbedf3;
+	opacity: 0.5;
+}
+
+footer {
+	color: white;
+}
