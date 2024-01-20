@@ -35,16 +35,16 @@ h1 {
 }
 
 /* Background images for each button */
-.e { background-image: url('images/crash1.png'); }
-.i { background-image: url('images/crash2.png'); }
-.s { background-image: url('images/tom1.png'); }
-.d { background-image: url('images/tom4.png'); }
-.f { background-image: url('images/snare.png'); }
-.k { background-image: url('images/tom3.png'); }
-.l { background-image: url('images/tom2.png'); }
-.c { background-image: url('images/kick1.png'); }
-.m { background-image: url('images/kick2.png'); }
-.v { background-image: url('images/ticket.png');
+.e { background-image: url('/images/crash1.png'); }
+.i { background-image: url('/images/crash2.png'); }/
+.s { background-image: url('/images/tom1.png'); }
+.d { background-image: url('/images/tom4.png'); }
+.f { background-image: url('/images/snare.png'); }
+.k { background-image: url('/images/tom3.png'); }
+.l { background-image: url('/images/tom2.png'); }
+.c { background-image: url('/images/kick1.png'); }
+.m { background-image: url('/images/kick2.png'); }
+.v { background-image: url('/images/ticket.png');
 	margin: 5rem auto;
 }
 
