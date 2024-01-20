@@ -11,7 +11,6 @@ const sounds = new Map([
 	['v', new Audio('sounds/sanak-sanak-kas-samaksajusi.mp3')],
 ])
 
-// Add click event listener to the set container
 document.querySelector('.set')?.addEventListener('click', (event) => {
 	const target = event.target
 	if (target.classList.contains('drum')) {
@@ -21,7 +20,6 @@ document.querySelector('.set')?.addEventListener('click', (event) => {
 	}
 })
 
-// Keydown event listener
 document.addEventListener('keydown', (event) => {
 	playSound(event.key)
 	buttonAnimation(event.key)
@@ -40,7 +38,7 @@ function buttonAnimation(currentKey) {
 function playSound(key) {
 	const sound = sounds.get(key)
 	if (sound) {
-		sound.currentTime = 0 // Rewind to the start
+		sound.currentTime = 0
 		sound.play()
 	}
 }
