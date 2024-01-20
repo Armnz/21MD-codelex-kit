@@ -1,7 +1,7 @@
 body {
 	text-align: center;
 	background-color: #181823;
-	font-family: 'Poppins', sans-serif; /* Set the font here for inheritance */
+	font-family: 'Poppins', sans-serif;
 }
 
 h1 {
@@ -15,7 +15,6 @@ h1 {
 	opacity: 90%;
 }
 
-/* Combine repeated styles for drum buttons */
 .drum {
 	outline: none;
 	border: 10px solid #404b69;
@@ -34,9 +33,9 @@ h1 {
 	background-color: white;
 }
 
-/* Background images for each button */
+
 .e { background-image: url('/images/crash1.png'); }
-.i { background-image: url('/images/crash2.png'); }/
+.i { background-image: url('/images/crash2.png'); }
 .s { background-image: url('/images/tom1.png'); }
 .d { background-image: url('/images/tom4.png'); }
 .f { background-image: url('/images/snare.png'); }
